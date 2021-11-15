@@ -3,19 +3,19 @@ About cleanlab
 
 Home: https://github.com/cgnorthcutt/cleanlab
 
-Package license: MIT
+Package license: AGPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cleanlab-feedstock/blob/master/LICENSE.txt)
 
-Summary: Find label errors in datasets, weak supervision, and learning with noisy labels. Works for all datasets and models.
+Summary: The standard package for machine learning with noisy labels and finding mislabeled data in Python.
 
 Development: https://github.com/cgnorthcutt/cleanlab
 
 Documentation: https://pypi.org/project/cleanlab/#description
 
-cleanlab is a machine learning python package for learning with noisy labels and finding label errors in datasets.
-cleanlab CLEANs LABels. It is powered by the theory of confident learning. Using the confidentlearning-reproduce
-repo, cleanlab v0.1.0 reproduces results in the CL paper.
+cleanlab is the data-centric ML ops package for machine learning with noisy labels.
+cleanlab cleans labels and supports finding, quantifying, and learning with
+label errors in datasets. See datasets cleaned with cleanlab at labelerrors.com.
 
 
 Current build status
@@ -64,7 +64,8 @@ conda search cleanlab --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -124,6 +125,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@BastianZim](https://github.com/BastianZim/)
+* [@mxr-conda](https://github.com/mxr-conda/)
 * [@ndmaxar](https://github.com/ndmaxar/)
 * [@oblute](https://github.com/oblute/)
 * [@rluria14](https://github.com/rluria14/)
