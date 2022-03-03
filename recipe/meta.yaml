@@ -1,5 +1,5 @@
 {% set name = "cleanlab" %}
-{% set version = "1.0" %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0c9ec2e2dc2f46b9aaaa46d8b4f0f2c1c080f15997dc1a6cf517fedbe19773d9
+  sha256: 9cc98e1b84fd212c22b2f184d10f9fb953e576d130261f9e6be335d3ac70088f
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -40,7 +40,7 @@ about:
   summary: The standard package for machine learning with noisy labels and finding mislabeled data in Python.
   license: AGPL-3.0-only
   license_file: LICENSE
-  doc_url: "https://pypi.org/project/cleanlab/#description"
+  doc_url: https://pypi.org/project/cleanlab/#description
   dev_url: https://github.com/cgnorthcutt/cleanlab
   description: |
     cleanlab is the data-centric ML ops package for machine learning with noisy labels.
