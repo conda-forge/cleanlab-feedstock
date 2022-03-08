@@ -36,12 +36,12 @@ test:
     - pip
 
 about:
-  home: https://github.com/cgnorthcutt/cleanlab
+  home: https://github.com/cleanlab/cleanlab
   summary: The standard package for machine learning with noisy labels and finding mislabeled data in Python.
-  license: AGPL-3.0-only
+  license: AGPL-3.0-or-later
   license_file: LICENSE
   doc_url: https://pypi.org/project/cleanlab/#description
-  dev_url: https://github.com/cgnorthcutt/cleanlab
+  dev_url: https://github.com/cleanlab/cleanlab
   description: |
     cleanlab is the data-centric ML ops package for machine learning with noisy labels.
     cleanlab cleans labels and supports finding, quantifying, and learning with
