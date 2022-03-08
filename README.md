@@ -1,15 +1,15 @@
 About cleanlab
 ==============
 
-Home: https://github.com/cgnorthcutt/cleanlab
+Home: https://github.com/cleanlab/cleanlab
 
-Package license: AGPL-3.0-only
+Package license: AGPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cleanlab-feedstock/blob/master/LICENSE.txt)
 
 Summary: The standard package for machine learning with noisy labels and finding mislabeled data in Python.
 
-Development: https://github.com/cgnorthcutt/cleanlab
+Development: https://github.com/cleanlab/cleanlab
 
 Documentation: https://pypi.org/project/cleanlab/#description
 
