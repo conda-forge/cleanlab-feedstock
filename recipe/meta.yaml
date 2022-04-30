@@ -30,7 +30,6 @@ requirements:
 test:
   imports:
     - cleanlab
-    - cleanlab.models
   commands:
     - pip check
   requires:
