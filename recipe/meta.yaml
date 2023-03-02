@@ -1,5 +1,5 @@
 {% set name = "cleanlab" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 401e27dee2531a06ea9abe8a73fab8f29c1c92758ece2f8b84e171a9310b0a71
+  sha256: 8619adc36ce0a14b1eeae3a326f1cd64cc3a54fc6070b1b7170547808d494104
 
 build:
   number: 0
@@ -20,12 +20,12 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - numpy >=1.11.3
+    - numpy >=1.20.0
     - python >=3.6
-    - scikit-learn >=0.18
-    - termcolor >=1.1.0
+    - scikit-learn >=1.0
+    - termcolor >=2.0.0
     - tqdm >=4.53.0
-    - pandas >=1.0.0
+    - pandas >=1.1.5
 
 test:
   imports:
