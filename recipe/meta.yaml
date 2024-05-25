@@ -1,5 +1,5 @@
 {% set name = "cleanlab" %}
-{% set version = "2.6.4" %}
+{% set version = "2.6.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 11051e796bdcffd2ebd44eba49b2f09c6cc4b7985db85f2da41c09cf704ce92a
+  sha256: 60991930a8eaa48877274903bd3d91e2319ab3f1f756a271a0da9bc135ba978c
 
 build:
   number: 0
